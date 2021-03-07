@@ -13,7 +13,7 @@ Quite some time was spent researching all the variables so that I could better u
 
 I used fast.ai’s tabular learner, which is a feed forward neural network. I didn’t use any fancy model selection tools, I just picked it because it’s really easy to work with and I’ve used it in the past. Before doing any feature engineering, I wanted to get a baseline. I trained on just the provided data, which resulted in a root mean squared loss (rmsl) of about 0.03136 which was already pretty good for the early stages of the competition.
 
-I beagain adding features one by one, evaluating my model each time. This allowed me to add a few really good features, and not add any features that would hurt the model. After I was happy with the features I was adding, I tuned my hyper parameters,  and managed to get a rmsl of 0.02505 after ensembling.
+I began adding features one by one, evaluating my model each time. This allowed me to add a few really good features, and not add any features that would hurt the model. After I was happy with the features I was adding, I tuned my hyper parameters,  and managed to get a rmsl of 0.02505 after ensembling.
 
 
 ## Remarks
